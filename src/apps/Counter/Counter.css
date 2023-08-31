@@ -1,0 +1,56 @@
+/* Overwritted wppaer class defined in shared index.css */
+.wrapper {
+    box-shadow: inset 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    background: #b0ffdd;
+}
+
+.circle-box {
+    display: flex;
+    height: 10rem;
+    width: 10rem;
+    background: white;
+    border-radius: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.counter-btns {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.counter-btns button {
+    padding: 0.7rem 0.9rem 0.7rem 0.9rem;
+    border: none;
+    border-radius: 6px;
+    font-size: x-large;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.resetButton {
+    display: block;
+    margin: 0 0 0 auto;
+    background: white;
+    border: none;
+    border-radius: 6px;
+    font-size: x-large;
+    padding: 2px;
+}
+
+.add-btn{
+    background: #10ff98;
+    color: white;
+}
+.subtract-btn{
+    background: rgb(253, 62, 62);
+    color: white;
+}
