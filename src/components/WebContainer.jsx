@@ -2,7 +2,7 @@ import React from 'react'
 import calculatorImg from "../assets/calculator.jpg";
 import tictactoeImg from "../assets/tictactoe.jpg";
 import counterImg from "../assets/counter.jpg";
-import magicMatchImg from "../assets/magicMatch.jpg";
+import magicMatchImg from "../assets/magicmatch.jpg";
 import todoImg from "../assets/todo.jpg";
 import { useNavigate } from 'react-router-dom';
 
