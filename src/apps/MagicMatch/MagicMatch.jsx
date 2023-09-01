@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import "./MagicMatch.css"
 
+// const cardImages = [
+//     { "src": "src/assets/helmet-1.png", matched: false },
+//     { "src": "src/assets/potion-1.png", matched: false },
+//     { "src": "src/assets/ring-1.png", matched: false },
+//     { "src": "src/assets/scroll-1.png", matched: false },
+//     { "src": "src/assets/shield-1.png", matched: false },
+//     { "src": "src/assets/sword-1.png", matched: false },
+// ]
 const cardImages = [
-    { "src": "src/assets/helmet-1.png", matched: false },
-    { "src": "src/assets/potion-1.png", matched: false },
-    { "src": "src/assets/ring-1.png", matched: false },
-    { "src": "src/assets/scroll-1.png", matched: false },
-    { "src": "src/assets/shield-1.png", matched: false },
-    { "src": "src/assets/sword-1.png", matched: false },
+    { "src": "imgs/helmet-1.png", matched: false },
+    { "src": "imgs/potion-1.png", matched: false },
+    { "src": "imgs/ring-1.png", matched: false },
+    { "src": "imgs/scroll-1.png", matched: false },
+    { "src": "imgs/shield-1.png", matched: false },
+    { "src": "imgs/sword-1.png", matched: false },
 ]
 
 const MagicCard = ({ card, handleChoice, flipped, disabled }) => {
@@ -21,7 +29,7 @@ const MagicCard = ({ card, handleChoice, flipped, disabled }) => {
         <div className='magic-card' >
             <div className={flipped ? 'flipped' : ''}>
                 <img className='front' src={card.src} alt="card front" />
-                <img className='back' src='src/assets/cover.png' onClick={hanldeClick} />
+                <img className='back' src='imgs/cover.png' onClick={hanldeClick} />
             </div>
         </div>
     )
