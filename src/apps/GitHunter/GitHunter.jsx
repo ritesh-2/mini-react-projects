@@ -3,7 +3,7 @@ import { MdArrowBack } from "react-icons/md";
 import Notification from "../../components/git-hunter/Notification"
 import FindUser from '../../components/git-hunter/FindUser';
 import FindUsers from '../../components/git-hunter/FindUsers';
-import "./GiThunter.css";
+import "./GitHunter.css";
 
 const GitHunter = () => {
     const [selectedUser, setSelectedUser] = useState(null);
