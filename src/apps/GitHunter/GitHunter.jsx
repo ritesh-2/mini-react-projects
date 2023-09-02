@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { MdArrowBack } from "react-icons/md";
 import Notification from "../../components/git-hunter/Notification"
 import FindUser from '../../components/git-hunter/FindUser';
-import FindUsers from '../../../githunter/src/FindUsers';
+import FindUsers from '../../components/git-hunter/FindUsers';
 import "./GiThunter.css";
 
 const GitHunter = () => {

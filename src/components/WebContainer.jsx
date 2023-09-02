@@ -4,6 +4,7 @@ import tictactoeImg from "../assets/tictactoe.jpg";
 import counterImg from "../assets/counter.jpg";
 import magicMatchImg from "../assets/magicmatch.jpg";
 import todoImg from "../assets/todo.jpg";
+import githunterImg from "../assets/githunter.jpg";
 import { useNavigate } from 'react-router-dom';
 
 const WebContainerBox = ({ app }) => {
@@ -58,7 +59,7 @@ const WebContainer = () => {
         {
             APP_ID: "GITHUNTER",
             APP_NAME: "GIT HUNTER",
-            APP_IMG: todoImg,
+            APP_IMG: githunterImg,
             PATH: "git-hunter"
         },
     ]

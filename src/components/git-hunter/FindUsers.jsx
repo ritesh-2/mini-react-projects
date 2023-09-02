@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import SearchBox from './components/SearchBox'
-import Loader from './components/Loader';
-import { BASE_URL, Fetch } from './utils/Fetch';
+import SearchBox from '../../components/git-hunter/SearchBox'
+import Loader from '../../components/git-hunter/Loader';
+import { BASE_URL, Fetch } from '../../utils/Fetch';
 
 
 
