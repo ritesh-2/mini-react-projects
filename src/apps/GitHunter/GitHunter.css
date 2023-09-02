@@ -48,6 +48,8 @@
   background: var(--gray-bg);
   padding: 1rem;
   border-radius: 12px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .user-card :hover {
@@ -331,5 +333,14 @@ body {
     padding: 0.3rem 0.4rem;
     right: 1rem;
 
+  }
+
+  .user-card {
+    gap: 0.5rem;
+    width: 180px;
+  }
+
+  .text-medium {
+    font-size: small;
   }
 }
