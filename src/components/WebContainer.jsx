@@ -55,6 +55,12 @@ const WebContainer = () => {
             APP_IMG: todoImg,
             PATH: "todo"
         },
+        {
+            APP_ID: "GITHUNTER",
+            APP_NAME: "GIT HUNTER",
+            APP_IMG: todoImg,
+            PATH: "git-hunter"
+        },
     ]
 
     return (
@@ -62,6 +68,7 @@ const WebContainer = () => {
             {MY_APPS.map((app) => (
                 <WebContainerBox key={app.APP_ID} app={app} />
             ))}
+
         </div>
     )
 }

@@ -15,6 +15,7 @@ const Calculator = Loadable(lazy(() => import("../src/apps/Calculator/Calculator
 const Counter = Loadable(lazy(() => import("../src/apps/Counter/Counter")))
 const MagicMatch = Loadable(lazy(() => import("../src/apps/MagicMatch/MagicMatch")))
 const TodoList = Loadable(lazy(() => import("../src/apps/Todo/Todo")))
+const GitHunter = Loadable(lazy(() => import("../src/apps/GitHunter/GitHunter")))
 
 
 const Routes = [
@@ -45,6 +46,10 @@ const Routes = [
     {
         path: "/todo",
         element: <TodoList />
+    },
+    {
+        path: "/git-hunter",
+        element: <GitHunter />
     },
     {
         path: "*",
