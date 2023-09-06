@@ -1,11 +1,12 @@
 import React from 'react'
-import calculatorImg from "../assets/calculator.jpg";
-import tictactoeImg from "../assets/tictactoe.jpg";
-import counterImg from "../assets/counter.jpg";
-import magicMatchImg from "../assets/magicmatch.jpg";
-import todoImg from "../assets/todo.jpg";
-import githunterImg from "../assets/githunter.jpg";
+// import calculatorImg from "../assets/calculator.jpg";
+// import tictactoeImg from "../assets/tictactoe.jpg";
+// import counterImg from "../assets/counter.jpg";
+// import magicMatchImg from "../assets/magicmatch.jpg";
+// import todoImg from "../assets/todo.jpg";
+// import githunterImg from "../assets/githunter.jpg";
 import { useNavigate } from 'react-router-dom';
+import { MY_APPS } from '../confgs/appConfig';
 
 const WebContainerBox = ({ app }) => {
     const navigate = useNavigate();
@@ -24,46 +25,6 @@ const WebContainerBox = ({ app }) => {
 }
 
 const WebContainer = () => {
-
-    const MY_APPS = [
-        {
-            APP_ID: "COUNTER",
-            APP_NAME: "COUNTER",
-            APP_IMG: counterImg,
-            PATH: "counter"
-        },
-        {
-            APP_ID: "TICTACTOE",
-            APP_NAME: "TIC TAC TOE",
-            APP_IMG: tictactoeImg,
-            PATH: "tictactoe"
-        },
-        {
-            APP_ID: "CALCULATOR",
-            APP_NAME: "CALCULATOR",
-            APP_IMG: calculatorImg,
-            PATH: "calculator"
-        },
-        {
-            APP_ID: "MAGICMATCH",
-            APP_NAME: "MAGIC MATCH",
-            APP_IMG: magicMatchImg,
-            PATH: "magic-match"
-        },
-        {
-            APP_ID: "TODO",
-            APP_NAME: "TODO LIST",
-            APP_IMG: todoImg,
-            PATH: "todo"
-        },
-        {
-            APP_ID: "GITHUNTER",
-            APP_NAME: "GIT HUNTER",
-            APP_IMG: githunterImg,
-            PATH: "git-hunter"
-        },
-    ]
-
     return (
         <div className='webContainer'>
             {MY_APPS.map((app) => (
